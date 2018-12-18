@@ -1,0 +1,38 @@
+<% include partials/header.ejs %>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
+
+<h2>Model-View-Controller - Completed Model</h2>
+<h4 class="secondindent" >mvcCB.js</h4>
+<p>This is the server fils that starts the program.</p>
+<h3 class="firstindent" >Routes</h3>
+<h4 class="secondindent" >student.js</h4>
+<p>The student.js file contains the code for the get and put routes.  This file also creates the tables and creates the MVC structure.</p>
+<h3 class="firstindent" >Config</h3>
+<h4 class="secondindent" >connection.js</h4>
+<p>This file contains the database connection with PostgreSQL.</p>
+<h3 class="firstindent" >Views</h3>
+<h4 class="secondindent" >students.js</h4>
+<p>The students.js file will contain the content for your get route.   Don't remove the reference to the header and footer.</p>
+<h3 class="secondindent" >Partials</h3>
+<h4 class="thirdindent" >header.js</h4>
+<p>The header file contains the information at the top of the html file.</p>
+<h4 class="thirdindent" >footer.js</h4>
+<p>The footer file contains the information at the bottom of the html file.</p>
+
+<style>
+.firstindent {
+  text-indent: 50px;
+}
+.secondindent, p {
+  text-indent: 100px;
+}
+.thirdindent, p {
+  text-indent: 150px;
+}
+.firstindent, .secondindent, .thirdindent {
+  line-height: 60%;
+}
+</style>
+<% include partials/footer.ejs %>
